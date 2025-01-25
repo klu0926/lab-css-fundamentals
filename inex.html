@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CSS Fundamentals</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="shadow-group-h1">
+        <h1>Registration</h1>
+        <span>Registration</span>
+      </div>
+
+      <form id="registration-form" action="">
+        <div class="shadow-group">
+          <label for="name">Account Name</label>
+          <span>Account Name</span>
+        </div>
+        <input
+          class="input"
+          type="text"
+          id="name"
+          name="name"
+          autofocus
+          required
+        />
+
+        <div class="shadow-group">
+          <label for="email">Email</label>
+          <span>Email</span>
+        </div>
+        <input class="input" type="email" id="email" name="email" required />
+
+        <div class="shadow-group">
+          <label for="passowrd">Password</label>
+          <span>Password</span>
+        </div>
+        <input
+          class="input"
+          type="password"
+          id="password"
+          name="password"
+          required
+        />
+
+        <div class="submit-div">
+          <button class="submit" type="submit">Register</button>
+          <button class="reset" type="reset">Reset</button>
+        </div>
+
+        <!--optional-->
+        <label class="remember-label" for="remember">
+          <input type="checkbox" id="remember" name="remember" />
+          Remember Account Name
+        </label>
+      </form>
+    </div>
+    <footer>
+      <p>Copyright 2004 2024 Registration Entertainment All Rights Reserved </p>
+    </footer>
+    <div class="background"></div>
+  </body>
+</html>
